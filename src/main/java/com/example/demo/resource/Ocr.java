@@ -32,7 +32,7 @@ public class Ocr {
 			//Em versões anteriors do tesseract seria Tesseract.getInstance()
 	        Tesseract tesseract = new Tesseract();
 	        //Path da pasta pai onde fica a pasta "tessdata"
-	        tesseract.setDatapath("C:\\Program Files (x86)\\Tesseract-OCR\\tessdata");
+	        //tesseract.setDatapath("C:\\Program Files (x86)\\Tesseract-OCR\\tessdata");
 	        resultado = "";	     
 	        //lingua: por, eng etc...
             tesseract.setLanguage("eng");
